@@ -9,6 +9,8 @@ public class IOSScrollStepDefs {
 
     @When("kullanici Switches butonuna bassin")
     public void kullanici_switches_butonuna_bassin() {
+
+        //Driverin icerisinde zaten js execute script methodu var o yüzden javascripte cevirmemize gerek yok
         HashMap<String, Object> scrollObject = new HashMap<>();
         scrollObject.put("direction", "down");
         scrollObject.put("value","Switches");

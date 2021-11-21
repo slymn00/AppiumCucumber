@@ -2,7 +2,7 @@ package stepdefinitions;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Assert;
+import static org.junit.Assert.*;
 import pages.AllPages;
 
 public class IOSPickerStepDefs {
@@ -16,8 +16,8 @@ public class IOSPickerStepDefs {
 
     @Then("datalari onaylasin")
     public void datalari_onaylasin() {
-        Assert.assertEquals("50",elements.pickerViewPage().ilkKolon.getText());
-        Assert.assertEquals("200",elements.pickerViewPage().ikiciKolon.getText());
-        Assert.assertEquals("150",elements.pickerViewPage().ucuncuKolon.getText());
+        assertEquals("50",elements.pickerViewPage().ilkKolon.getText());
+        assertEquals("200",elements.pickerViewPage().ikiciKolon.getText());
+        assertEquals("150",elements.pickerViewPage().ucuncuKolon.getText());
     }
 }

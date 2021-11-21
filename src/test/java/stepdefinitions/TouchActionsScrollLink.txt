@@ -1,0 +1,2 @@
+https://appium.io/docs/en/writing-running-appium/touch-actions/
+JS ile birlikte scroll ornek IOSScrollStepDefs bakilabilir

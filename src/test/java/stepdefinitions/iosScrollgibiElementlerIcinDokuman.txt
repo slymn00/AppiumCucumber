@@ -1,0 +1,2 @@
+https://appium.io/docs/en/writing-running-appium/ios/ios-xctest-mobile-gestures/
+scroll,doubletap,tap, swipe... gibi ozelliklere buradan ulasabiliriz
