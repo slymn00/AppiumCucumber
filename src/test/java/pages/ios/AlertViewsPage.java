@@ -12,8 +12,8 @@ public class AlertViewsPage {
     public AlertViewsPage(){
         PageFactory.initElements(new AppiumFieldDecorator(Driver.getAppiumDriver(), Duration.ofSeconds(15)),this);
     }
-    @iOSXCUITFindBy(accessibility = "OK")
-    public MobileElement okButton;
+    @iOSXCUITFindBy(accessibility = "OK")  //iOSXCUITFindBy annotaionu otomatik olarak gelmedigi icin once androidby annotaionini yapip daha sonra yukardaki
+    public MobileElement okButton;          //import kismindan AndroidFindBy yerini silip onun yerin iOSXCUITFindBy yazarsak annotaiona ulasmis oluruz.
 
     @iOSXCUITFindBy(className = "XCUIElementTypeOther")
     public MobileElement textBox;
