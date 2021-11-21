@@ -1,6 +1,10 @@
 package pages;
 
 import pages.android.*;
+import pages.ios.AlertViewsPage;
+import pages.ios.HomePage;
+import pages.ios.IOSSwitchPage;
+import pages.ios.PickerViewPage;
 
 public class AllPages {
 
@@ -22,6 +26,12 @@ public class AllPages {
     private ExpandableListsPage expandableListsPage;
     private SpinnerPage spinnerPage;
     private PopUpMenuPage popUpMenuPage;
+
+    //---------IOS PAGES------------
+    private AlertViewsPage alertViewsPage;
+    private HomePage homePage;
+    private IOSSwitchPage iosSwitchPage;
+    private PickerViewPage pickerViewPage;
 
 
     //her page class icin public method olusturup obje olusturacagiz
@@ -101,6 +111,33 @@ public class AllPages {
             popUpMenuPage=new PopUpMenuPage();
         }
         return popUpMenuPage;
+    }
+
+    //-------IOS PAGES--------
+    public HomePage homePage(){
+        if (homePage==null){
+            homePage=new HomePage();
+        }
+        return homePage;
+    }
+
+    public AlertViewsPage alertViewsPage(){
+        if (alertViewsPage==null){
+            alertViewsPage=new AlertViewsPage();
+        }
+        return alertViewsPage;
+    }
+    public IOSSwitchPage iosSwitchPage(){
+        if (iosSwitchPage==null){
+            iosSwitchPage=new IOSSwitchPage();
+        }
+        return iosSwitchPage;
+    }
+    public PickerViewPage pickerViewPage(){
+        if (pickerViewPage==null){
+            pickerViewPage=new PickerViewPage();
+        }
+        return pickerViewPage;
     }
 
 }
