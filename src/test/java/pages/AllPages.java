@@ -21,6 +21,7 @@ public class AllPages {
     private DateWidgetsPage dateWidgetsPage;
     private ExpandableListsPage expandableListsPage;
     private SpinnerPage spinnerPage;
+    private PopUpMenuPage popUpMenuPage;
 
 
     //her page class icin public method olusturup obje olusturacagiz
@@ -93,6 +94,13 @@ public class AllPages {
             spinnerPage=new SpinnerPage();
         }
         return spinnerPage;
+    }
+
+    public PopUpMenuPage popUpMenuPage(){
+        if (popUpMenuPage==null){
+            popUpMenuPage=new PopUpMenuPage();
+        }
+        return popUpMenuPage;
     }
 
 }

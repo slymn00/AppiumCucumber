@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty", "html:target/default-cucumber-reports"},
         features="src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@spinner",
+        tags = "@popup",
         dryRun = false
 
 )

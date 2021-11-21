@@ -11,7 +11,7 @@ import java.util.List;
 public class ReusableMethods {
 
     public static void clickOnPage(String pageName) throws InterruptedException {
-        Thread.sleep(4000);
+        Thread.sleep(3000);
         List<MobileElement> pages = Driver.getAppiumDriver().findElementsByClassName("android.widget.TextView");
         for (MobileElement page: pages) {
             if (page.getText().equals(pageName)){
