@@ -1,0 +1,2 @@
+developer options-> show taps active,pointer location active olmali
+UiScrollable sadece androidlerde calisiyor!! cunku kodu Android SDK'den aliyor daha hizli ve direk elemente ulasiyor

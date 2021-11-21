@@ -1,0 +1,6 @@
+Alerts/PopUp(android)
+toast mesaji locate etmek kolay degil genellikle spy element olarak bulunuyorlar
+eger bulamazsak genel kullanim olan "android.widget.Toast" className of Toast.
+developerlar klasik bunu kullanirlar.Eger birden fazla toast mesaji varsa index alarak
+android.widget.Toast[1] seklinde yazabiliriz
+Toast mesaji "name" attribute ile yazildigi icin "getAttribute("name")" ile yaziya ulasabiliriz
